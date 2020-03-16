@@ -8,6 +8,8 @@ import HookCounterThree from "./components/useState/HookCounterThree";
 import HookCounterFour from "./components/useState/HookCounterFour";
 import ClassCounterOne from "./components/useEffect/ClassCounterOne";
 import HookCounterOne from "./components/useEffect/HookCounterOne";
+import ClassMouse from "./components/useEffect/ClassMouse";
+import HookMouse from "./components/useEffect/HookMouse";
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,8 @@ function App() {
       <HookCounterFour/>
       <ClassCounterOne/>
       <HookCounterOne/>
+      <ClassMouse/>
+      <HookMouse/>
     </div>
   );
 }
