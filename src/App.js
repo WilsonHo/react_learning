@@ -13,8 +13,9 @@ import './App.css';
 // import MouseContainer from "./components/useEffect/MouseContainer";
 // import IntervalClassCounter from "./components/useEffect/IntervalClassCounter";
 // import IntervalHookCounter from "./components/useEffect/IntervalHookCounter";
-import DataFetching from "./components/useEffect/DataFetching";
-import ComponentC from "./components/useContext/ComponentC";
+// import DataFetching from "./components/useEffect/DataFetching";
+// import ComponentC from "./components/useContext/ComponentC";
+import CounterOne from "./components/useReducer/CounterOne";
 
 export const UserContext = React.createContext()
 function App() {
@@ -33,9 +34,10 @@ function App() {
       {/*<IntervalClassCounter/>*/}
       {/*<IntervalHookCounter/>*/}
       {/*<DataFetching/>*/}
-      <UserContext.Provider value={'BaoHo'}>
-        <ComponentC/>
-      </UserContext.Provider>
+      {/*<UserContext.Provider value={'BaoHo'}>*/}
+      {/*  <ComponentC/>*/}
+      {/*</UserContext.Provider>*/}
+      <CounterOne/>
     </div>
   );
 }
