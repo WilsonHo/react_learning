@@ -10,6 +10,7 @@ import ClassCounterOne from "./components/useEffect/ClassCounterOne";
 import HookCounterOne from "./components/useEffect/HookCounterOne";
 import ClassMouse from "./components/useEffect/ClassMouse";
 import HookMouse from "./components/useEffect/HookMouse";
+import MouseContainer from "./components/useEffect/MouseContainer";
 function App() {
   return (
     <div className="App">
@@ -20,8 +21,9 @@ function App() {
       <HookCounterFour/>
       <ClassCounterOne/>
       <HookCounterOne/>
-      <ClassMouse/>
-      <HookMouse/>
+      {/*<ClassMouse/>*/}
+      {/*<HookMouse/>*/}
+      <MouseContainer/>
     </div>
   );
 }

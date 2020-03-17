@@ -12,7 +12,11 @@ const HookMouse = pros => {
   
   useEffect(() => {
     console.log('Use Effect called');
-    window.addEventListener('mousemove', logMousePosition)
+    window.addEventListener('mousemove', logMousePosition);
+    return () => {
+      console.log('Component unmounting code');
+      window.removeEventListener('mousemove', logMousePosition)
+    }
   }, []);
   
   
