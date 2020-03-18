@@ -15,7 +15,7 @@ import './App.css';
 // import IntervalHookCounter from "./components/useEffect/IntervalHookCounter";
 // import DataFetching from "./components/useEffect/DataFetching";
 // import ComponentC from "./components/useContext/ComponentC";
-import CounterOne from "./components/useReducer/CounterOne";
+import CounterThree from "./components/useReducer/CounterThree";
 
 export const UserContext = React.createContext()
 function App() {
@@ -37,7 +37,7 @@ function App() {
       {/*<UserContext.Provider value={'BaoHo'}>*/}
       {/*  <ComponentC/>*/}
       {/*</UserContext.Provider>*/}
-      <CounterOne/>
+      <CounterThree/>
     </div>
   );
 }
