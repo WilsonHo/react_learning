@@ -16,7 +16,7 @@ const reducer = (state, action) => {
   }
 };
 
-const Component = pros => {
+const CounterOne = pros => {
   const [state, dispatch] = useReducer(reducer, initialState);
   return (
     <div>
@@ -28,4 +28,4 @@ const Component = pros => {
   );
 };
 
-export default Component;
+export default CounterOne;
