@@ -1,11 +1,11 @@
 import React, {useReducer} from 'react';
 import './App.css';
-import DataFethcingOne from './components/useReducer/DataFetchingOne'
+import Counter from './components/useMemo/Counter'
 
 function App() {
   return (
       <div className="App">
-        <DataFethcingOne></DataFethcingOne>
+        <Counter></Counter>
       </div>
   );
 }
